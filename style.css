@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0% 0%;
+}
+
+.top-banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 60em;
+    background-size: cover;
+}
+
+.top-banner div {
+    text-align: center;
+    color: aliceblue;
+}
+
+.top-banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 17%;
+    margin: 0%;
+}
+
+.top-banner p {
+    margin-bottom: 40px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-image: linear-gradient(#eea371, rgb(241, 58, 25));
+    padding: 10px 40px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-weight: 700;
+}
