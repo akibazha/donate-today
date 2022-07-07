@@ -6,7 +6,7 @@ body {
 .top-banner {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
-    height: 60em;
+    height: 70em;
     background-size: cover;
 }
 
@@ -24,13 +24,69 @@ body {
 
 .top-banner p {
     margin-bottom: 40px;
+    font-size: 20px;
 }
 
 .donate-button {
     text-decoration: none;
     background-image: linear-gradient(#eea371, rgb(241, 58, 25));
-    padding: 10px 40px;
+    padding: 30px 40px;
     border-radius: 8px;
     color: aliceblue;
+    font-weight: 900;
+    margin-bottom: 70px;
+}
+
+.donation-selector {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.donation-selector h1 {
+    font-size: 60px;
     font-weight: 700;
+    padding-top: 7%;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    padding: 70px 400px;
+
+
+}
+
+.box {
+    width: 90%;
+    height: 80px;
+    background-color: rgba(185, 185, 185, 0.158);
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+}
+
+#selected {
+    background-color: rgba(245, 210, 210, 0.651);
+    border: 5px solid red;
+    border-radius: 10px;
+    color: rgb(241, 58, 25);
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+#amount-input {
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.555);
 }
