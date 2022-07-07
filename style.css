@@ -162,7 +162,7 @@ hr {
     width: 400%;
     height: 550px;
     background-color: rgba(245, 210, 210, 0.651);
-    margin: 5px;
+    margin: 0 100px 0 0;
     padding: 5%;
     font-weight: 900;
     font-size: 30px;
@@ -170,11 +170,7 @@ hr {
     border-radius: 10px;
 
     box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 10px;
+
 }
 
 .news {
@@ -206,6 +202,7 @@ h1 {
     display: flex;
     margin: 70px auto;
     padding: 50px 100px;
+    border-radius: 5px;
 }
 
 #email {
