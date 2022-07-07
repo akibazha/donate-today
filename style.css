@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0% 0%;
+    padding: 0% 0%;
 }
 
 p {
@@ -79,7 +80,7 @@ p {
     background-color: rgba(245, 210, 210, 0.651);
     border: 5px solid red;
     border-radius: 10px;
-    color: rgb(241, 58, 25);
+    color: #f13a19;
 }
 
 hr {
@@ -133,4 +134,67 @@ hr {
 
 #education {
     background-color: rgb(233, 215, 250);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 7%;
+    margin: 0%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: 700;
+}
+
+#email-form {
+    background-color: rgba(255, 228, 196, 0.418);
+    width: 50%;
+    display: flex;
+    margin: 70px auto;
+    padding: 50px 100px;
+}
+
+#email {
+    border: none;
+    text-align: left;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(169, 169, 169, 0.466);
+    padding: 5px 10px 5px 5px;
+    margin: 0 0 0 25%;
+    border-radius: 5px;
+}
+
+#subscribe {
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 242, 242);
+    background-color: #fa4e4e;
+    padding: 2% 2%;
+    margin: 0%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(5, 9, 17);
+    text-align: center;
+    color: #f1e319;
+    padding: 0% 0 100px 0;
+
+}
+
+#footer-title {
+    color: #f75252;
+    font-family: fantasy;
+}
+
+#address {
+    margin: 0%;
 }
